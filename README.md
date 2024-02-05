@@ -18,3 +18,5 @@ As "chaves" de criptografia utilizadas são:
 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original;
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos;
 - Extra! (Um rodapé com os dados da pessoa que desenvolveu o site).
+
+![decoder](https://github.com/amndalsr/ChallengeONE-DecodificadorDeTexto/assets/72527935/f03f6a07-cd64-449c-b195-99a25c422c07)
