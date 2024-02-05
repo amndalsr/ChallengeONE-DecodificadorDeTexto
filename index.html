@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/logo.png">
+    <title>Decodificador de Texto</title>
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+</head>
+
+<body>
+
+    <div class="logo-alura">
+        <img src="/assets/logo-alura.png" alt="logo da Alura">
+    </div>
+
+    <main class="conteudo__principal">
+        <section class="conteudo__principal__secao">
+            <div class="conteudo__principal__texto">
+                <textarea class="texto" placeholder="Digite seu texto" spellcheck="false" id="areaTexto" cols="40"
+                    rows="7"></textarea>
+            </div>
+            <div class="conteudo__principal__aviso">
+                <img src="/assets/icon-alert.png" alt="ícone de alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="conteudo__principal__botoes">
+                <button onclick="criptografa()" class="botao-criptografar" id="btnCriptografar" type="submit">Criptografar</button>
+                <button onclick="descriptografar()" class="botao-descriptografar" id="btnDescriptografar" type="submit">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="conteudo__principal__mensagens">
+            <div class="conteudo__principal__caixa">
+                <img src="/assets/imagem.svg" alt="ilustração pessoa com uma lupa">
+                <div class="conteudo__principal__informacoes">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="conteudo__area-de-copia">
+            <div class="conteudo__principal__area-de-copia">
+                <textarea readonly="true" class="texto-destino"  spellcheck="false" id="areaCopia" cols="25" rows="9"></textarea>
+                <button class="botao-copiar" id="botaoCopiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Copyright 2024 © - Amanda Laís</p>
+    </footer>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
