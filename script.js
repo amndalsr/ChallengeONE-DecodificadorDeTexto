@@ -24,6 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Previne acentos no campo de texto
     campoTexto.addEventListener('input', function () {
         this.value = this.value.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+        this.value = this.value.replace(/[^\w\s]/gi, "");
+
+
         verificarTexto();
     });
 
