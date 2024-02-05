@@ -77,6 +77,20 @@ textarea:focus {
     outline: 0;
 }
 
+.texto::-webkit-scrollbar {
+    width: 12px;
+}
+
+.texto::-webkit-scrollbar-track {
+    background: var(--cor-primaria);
+}
+
+.texto::-webkit-scrollbar-thumb {
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+    border: 3px solid var(--cor-primaria);
+}
+
 .conteudo__principal__aviso {
     display: flex;
     align-items: center;
@@ -229,6 +243,20 @@ textarea:focus {
     text-transform: lowercase;
     resize: none;
     cursor: default;
+}
+
+.texto-destino::-webkit-scrollbar {
+    width: 12px;
+}
+
+.texto-destino::-webkit-scrollbar-track {
+    background: var(--cor-texto_botao);
+}
+
+.texto-destino::-webkit-scrollbar-thumb {
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+    border: 3px solid var(--cor-primaria);
 }
 
 .conteudo__principal__area-de-copia .botao-copiar {
