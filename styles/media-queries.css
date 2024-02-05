@@ -1,4 +1,5 @@
 @media only screen and (max-width: 768px) {
+
     body {
         flex-direction: column;
     }
@@ -13,7 +14,7 @@
         padding: 11.11% 0 0 0;
     }
 
-    .conteudo__principal__texto .texto{
+    .conteudo__principal__texto .texto {
         width: 100%;
     }
 
@@ -46,6 +47,24 @@
     .rodape {
         position: absolute;
         width: 100%;
-        top: 150%;
+        top: 145%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .conteudo__principal__botoes {
+        flex-direction: column;
+    }
+
+    .botao-criptografar,
+    .botao-descriptografar {
+        width: 100%;
+    }
+
+    .conteudo__principal__caixa {
+        height: 186px;
+        width: auto;
+        max-width: none;
     }
 }
