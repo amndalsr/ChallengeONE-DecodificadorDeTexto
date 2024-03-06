@@ -14,11 +14,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 100vh;
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     margin: auto;
-    max-width: 100%;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -36,10 +37,13 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid var(--cor-primaria);
 }
 
+.cabecalho__logo {
+    width: 30px;
+}
+
 .logo-alura img {
     padding: 2.5rem 0 0 0;
     cursor: pointer;
-    position: fixed;
 }
 
 .conteudo__principal {
