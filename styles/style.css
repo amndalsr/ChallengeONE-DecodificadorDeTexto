@@ -38,7 +38,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cabecalho__logo {
-    width: 30px;
+    width: 100vh;
+}
+
+.logo-alura {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logo-alura img {
