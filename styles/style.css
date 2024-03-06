@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*justify-content: center;*/
+    height: 100vh;
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     margin: auto;
@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-between;
     padding: 0 5% 0 5%;
-    gap: 2rem;
+    gap: 2.75rem;
 }
 
 .conteudo__principal__secao {
@@ -286,9 +286,9 @@ textarea:focus {
 }
 
 .rodape {
-    position: absolute;
     width: 100%;
     top: 100%;
+    margin-top: 4rem;
     text-align: center;
     padding: 20px 0;
     background-color: var(--cor-secundaria);

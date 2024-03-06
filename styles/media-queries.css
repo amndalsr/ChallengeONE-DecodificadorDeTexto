@@ -39,12 +39,7 @@
     .texto-destino, .botao-copiar {
         width: 100%;
     }
-
-    .rodape {
-        position: absolute;
-        width: 100%;
-        top: 145%;
-    }
+    
 }
 
 @media only screen and (max-width: 375px) {
@@ -63,12 +58,6 @@
         width: auto;
         max-width: none;
         padding: 20%;
-    }
-
-    .rodape {
-        position: absolute;
-        width: 100%;
-        top: 180%;
     }
     
 }
