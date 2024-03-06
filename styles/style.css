@@ -12,9 +12,12 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /*justify-content: center;*/
     box-sizing: border-box;
     background-color: var(--cor-primaria);
+    margin: auto;
     max-width: 100%;
     margin: auto;
 }
@@ -34,21 +37,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo-alura img {
-    padding: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem 0 0 0;
     cursor: pointer;
+    position: fixed;
 }
 
 .conteudo__principal {
     display: flex;
     justify-content: space-between;
-    padding: 0 5% 0 0;
-    gap: 2.75rem;
+    padding: 0 5% 0 5%;
+    gap: 2rem;
 }
 
 .conteudo__principal__secao {
     display: flex;
     flex-direction: column;
-    padding: 11.11% 0 0 3%;
+    padding: 15% 0 0 3%;
 }
 
 .texto {
@@ -167,7 +171,7 @@ textarea:focus {
 }
 
 .conteudo__principal__mensagens {
-    padding: 40px 0 0 0;
+    padding: 2.5rem 0 0 0;
 }
 
 .conteudo__principal__caixa {

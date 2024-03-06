@@ -36,11 +36,7 @@
         display: none;
     }
 
-    .conteudo__principal__area-de-copia .texto-destino {
-        width: 100%;
-    }
-
-    .conteudo__principal__area-de-copia .botao-copiar {
+    .texto-destino, .botao-copiar {
         width: 100%;
     }
 
@@ -66,5 +62,13 @@
         height: 186px;
         width: auto;
         max-width: none;
+        padding: 20%;
     }
+
+    .rodape {
+        position: absolute;
+        width: 100%;
+        top: 180%;
+    }
+    
 }
