@@ -218,7 +218,6 @@ textarea:focus {
 }
 
 .conteudo__area-de-copia {
-    padding: 40px 0 0 0;
     display: none;
 }
 
@@ -228,8 +227,7 @@ textarea:focus {
     align-items: center;
     justify-content: center;
     width: 400px;
-    height: 640px;
-    flex-shrink: 0;
+    height: 600px;
 
     background-color: var(--cor-texto_botao);
     border-radius: 32px;
